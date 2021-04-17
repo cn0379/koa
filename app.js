@@ -1,54 +1,57 @@
-/*
- * @Author: your name
- * @Date: 2021-03-30 21:41:43
- * @LastEditTime: 2021-03-30 23:08:56
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \project\app.js
- */
-const Koa = require('koa')
-const app = new Koa()
+//koa
+const Koa = require('koa');
+const app = new Koa();
 
-const views = require('koa-views')
-const json = require('koa-json')
-const onerror = require('koa-onerror')
-const bodyparser = require('koa-bodyparser')
-const koaBody = require('koa-body');
-const logger = require('koa-logger')
-const cors = require('koa-cors');
+//配置文件
+const config = require('./configs');
 
-const index = require('./routes/index')
+//response中间件
+const response = require('./middlewares/response.js');
 
-// error handler
-onerror(app)
+//try/catch中间件
+const errorHandle = require('./middlewares/errorHandle.js');
 
-// middlewares
-app.use(bodyparser({
-  enableTypes:['json', 'form', 'text']
-}))
-app.use(json())
-app.use(logger())
-app.use(require('koa-static')(__dirname + '/public'))
+//引入路由
+const router = require('./routes');
 
-app.use(views(__dirname + '/views', {
-  extension: 'ejs'
-}))
-
-// logger
-app.use(async (ctx, next) => {
-  const start = new Date()
-  await next()
-  const ms = new Date() - start
-  console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
-})
-
-// routes
-app.use(index.routes(), index.allowedMethods())
-app.use(users.routes(), users.allowedMethods())
-
-// error-handling
-app.on('error', (err, ctx) => {
-  console.error('server error', err, ctx)
+//mongoose
+const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+const mongoUrl = `mongodb://${ config.mongodb.user }:${ config.mongodb.password }@${ config.mongodb.host }:${ config.mongodb.port }/${ config.mongodb.database }`; 
+mongoose.connect(mongoUrl);
+const db = mongoose.connection;
+db.on('error', () => {
+    console.log('数据库连接出错!');
+});
+db.once('open', () => {
+    console.log('数据库连接成功！');
 });
 
-module.exports = app
+
+//输出请求的方法，url,和所花费的时间
+app.use(async (ctx, next) => {
+    let start = new Date();
+    await next();
+    let ms = new Date() - start;
+    console.log(`${ ctx.method } ${ ctx.url } - ${ ms } ms`);
+});
+
+//bodyParser中间件
+const bodyParser = require('koa-bodyparser');
+app.use(bodyParser());
+
+//使用response中间件(放在最前面)
+app.use(response);
+
+//使用errorHandle中间件
+app.use(errorHandle);
+
+
+
+//使用路由中间件
+app.use(router.routes()).use(router.allowedMethods());
+
+//监听端口
+app.listen(config.app.port, () => {
+    console.log();('The server is running at http://localhost:' + config.app.port);
+});

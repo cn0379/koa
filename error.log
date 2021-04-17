@@ -1,0 +1,86 @@
+[31m[1m11:34:05.01 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m11:35:21.56 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m11:35:37.15 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m11:35:44.36 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:03:03.49 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:03:18.68 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:04:35.57 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:04:35.59 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:04:35.67 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:04:35.72 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at runNextTicks (internal/process/task_queues.js:66:3)[22m[39m
+[31m[1m    at processImmediate (internal/timers.js:429:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:04:35.74 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:74)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m12:06:27.23 <error> TypeError: Cannot read property 'password' of null[22m[39m
+[31m[1m    at login (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\controllers\user.js:28:81)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
