@@ -3,7 +3,8 @@ const config = require('../configs'),
       router = new Router({
           prefix: config.app.routerBaseApi
       }),
-      U = require('../controllers/user.js');
+      U = require('../controllers/user.js'),
+      N = require('../controllers/news.js')
 
 
 /* HTTP动词
@@ -15,7 +16,8 @@ const config = require('../configs'),
 */
 
 router
-    .post('/login', U.login);                                        //用户登录
+    .post('/login', U.login)
+    .get('/news',N.getAllNewsList)                                     //用户登录
 
 exports = module.exports = router;
 

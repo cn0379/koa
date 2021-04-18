@@ -84,3 +84,129 @@
 [31m[1m    at async module.exports (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
 [31m[1m    at async bodyParser (C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
 [31m[1m    at async C:\Users\bob.zhang\Downloads\cai_jizhou-koa2-blog-server-master (1)\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m22:56:18.59 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:28:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:02:45.91 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:31:37.67 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:31:37.70 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:31:39.89 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:31:39.94 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:31:56.77 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:32:18.04 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:32:18.13 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:32:25.68 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:32:44.83 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:32:45.01 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:33:01.93 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:33:22.77 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:29:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:34:07.69 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:27:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:34:27.78 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:27:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:34:51.42 <error> ReferenceError: result is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:27:14)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m23:43:18.39 <error> ReferenceError: total is not defined[22m[39m
+[31m[1m    at getAllNewsList (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\controllers\news.js:39:7)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m

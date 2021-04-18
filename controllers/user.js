@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-03-31 09:49:01
- * @LastEditTime: 2021-04-17 21:45:44
+ * @LastEditTime: 2021-04-18 23:03:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \server\controllers\user.js
@@ -18,6 +18,7 @@ const createToken = require('../utils/createToken.js');
 class UserController {
     //用户登录(创建token)
     static async login(ctx) {
+        console.log(login);
         const {
             username,
             password
