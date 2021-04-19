@@ -1,7 +1,7 @@
 /*
- * @Author: your name
+ * @Author: zhangshaolong
  * @Date: 2021-04-18 22:37:58
- * @LastEditTime: 2021-04-18 23:45:02
+ * @LastEditTime: 2021-04-19 22:36:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \koa2-blog-server\models\news.js
