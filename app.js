@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-04-18 00:31:39
+ * @LastEditTime: 2021-04-20 22:25:35
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \project\app.js
+ */
 //koa
 const Koa = require('koa');
 const app = new Koa();
@@ -11,7 +19,7 @@ const response = require('./middlewares/response.js');
 //try/catch中间件
 const errorHandle = require('./middlewares/errorHandle.js');
 
-//引入路由
+//引入路
 const router = require('./routes');
 
 //mongoose
