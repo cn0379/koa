@@ -35,6 +35,7 @@ class NewsController {
       data: result,
     });
   }
+  
 }
 
 exports = module.exports = NewsController;

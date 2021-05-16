@@ -210,3 +210,51 @@
 [31m[1m    at async module.exports (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\middlewares\response.js:6:3)[22m[39m
 [31m[1m    at async bodyParser (C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
 [31m[1m    at async C:\Users\dell\Documents\WeChat Files\wxid_exmqc9ni0l7v22\FileStorage\File\2021-04\koa2-blog-server\app.js:34:5 (in errorHandle.js:25)[22m[39m
+[31m[1m16:55:51.33 <error> TypeError: Atricle.insert is not a function[22m[39m
+[31m[1m    at insertAtricle (F:\koa\koa2\project\controllers\article.js:10:19)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\lib\router.js:346:16[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:36:12[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\lib\router.js:351:31)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:15)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\response.js:6:9)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:11)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:42:5 (in errorHandle.js:25)[22m[39m
+[31m[1m16:57:44.67 <error> TypeError: a.insert is not a function[22m[39m
+[31m[1m    at insertAtricle (F:\koa\koa2\project\controllers\article.js:10:13)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\lib\router.js:346:16[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:36:12[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\lib\router.js:351:31)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:15)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\response.js:6:9)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:11)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:42:5 (in errorHandle.js:25)[22m[39m
+[31m[1m16:58:04.87 <error> TypeError: a.insert is not a function[22m[39m
+[31m[1m    at insertAtricle (F:\koa\koa2\project\controllers\article.js:10:13)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\lib\router.js:346:16[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:36:12[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\lib\router.js:351:31)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:15)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\response.js:6:9)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:11)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:42:5 (in errorHandle.js:25)[22m[39m

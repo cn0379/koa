@@ -4,8 +4,8 @@ const config = require('../configs'),
           prefix: config.app.routerBaseApi
       }),
       U = require('../controllers/user.js'),
-      N = require('../controllers/news.js')
-
+      N = require('../controllers/news.js'),
+      A = require('../controllers/article.js')
 
 /* HTTP动词
     GET     //查询
@@ -17,7 +17,9 @@ const config = require('../configs'),
 
 router
     .post('/login', U.login)
-    .get('/news',N.getAllNewsList)                                     //用户登录
+    .get('/news',N.getAllNewsList)
+    .get('/atricle/insert',A.insertAtricle)                                     //用户登录
+    .get('/atricle/query',A.getAtricle)                                     //用户登录
 
 exports = module.exports = router;
 
