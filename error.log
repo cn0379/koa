@@ -274,3 +274,28 @@
 [31m[1m    at bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:11)[22m[39m
 [31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
 [31m[1m    at async F:\koa\koa2\project\app.js:42:5 (in errorHandle.js:25)[22m[39m
+[31m[1m21:32:52.68 <error> MongoError: Failed to parse: { find: "atricles ", filter: {}, projection: {}, limit: "2", $db: "blog" }. 'limit' field must be numeric.[22m[39m
+[31m[1m    at Function.MongoError.create (F:\koa\koa2\project\node_modules\mongodb-core\lib\error.js:31:11)[22m[39m
+[31m[1m    at queryCallback (F:\koa\koa2\project\node_modules\mongodb-core\lib\cursor.js:212:36)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\mongodb-core\lib\connection\pool.js:469:18[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:79:11) (in errorHandle.js:25)[22m[39m
+[31m[1m21:33:15.17 <error> MongoError: Failed to parse: { find: "atricles ", filter: {}, projection: {}, limit: "2", $db: "blog" }. 'limit' field must be numeric.[22m[39m
+[31m[1m    at Function.MongoError.create (F:\koa\koa2\project\node_modules\mongodb-core\lib\error.js:31:11)[22m[39m
+[31m[1m    at queryCallback (F:\koa\koa2\project\node_modules\mongodb-core\lib\cursor.js:212:36)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\mongodb-core\lib\connection\pool.js:469:18[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:79:11) (in errorHandle.js:25)[22m[39m
+[31m[1m21:33:29.08 <error> MongoError: Failed to parse: { find: "atricles ", filter: {}, projection: {}, limit: "2", $db: "blog" }. 'limit' field must be numeric.[22m[39m
+[31m[1m    at Function.MongoError.create (F:\koa\koa2\project\node_modules\mongodb-core\lib\error.js:31:11)[22m[39m
+[31m[1m    at queryCallback (F:\koa\koa2\project\node_modules\mongodb-core\lib\cursor.js:212:36)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\mongodb-core\lib\connection\pool.js:469:18[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:79:11) (in errorHandle.js:25)[22m[39m
+[31m[1m21:34:01.48 <error> MongoError: Failed to parse: { find: "atricles ", filter: {}, projection: {}, limit: "2", $db: "blog" }. 'limit' field must be numeric.[22m[39m
+[31m[1m    at Function.MongoError.create (F:\koa\koa2\project\node_modules\mongodb-core\lib\error.js:31:11)[22m[39m
+[31m[1m    at queryCallback (F:\koa\koa2\project\node_modules\mongodb-core\lib\cursor.js:212:36)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\mongodb-core\lib\connection\pool.js:469:18[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:79:11) (in errorHandle.js:25)[22m[39m
+[31m[1m21:34:41.00 <error> MongoError: Failed to parse: { find: "atricles ", filter: {}, projection: {}, limit: "2", $db: "blog" }. 'limit' field must be numeric.[22m[39m
+[31m[1m    at Function.MongoError.create (F:\koa\koa2\project\node_modules\mongodb-core\lib\error.js:31:11)[22m[39m
+[31m[1m    at queryCallback (F:\koa\koa2\project\node_modules\mongodb-core\lib\cursor.js:212:36)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\mongodb-core\lib\connection\pool.js:469:18[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:79:11) (in errorHandle.js:25)[22m[39m

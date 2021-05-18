@@ -13,11 +13,13 @@ class AtricleController {
 
   static async getAtricle(ctx) {
     let result;
-    let req = ctx.request.body;
-    result = await Atricle.find().limit(req.limit)
+    console.log();
+    const { limit, page } = ctx.query
+    result = await Atricle.find().limit(parseInt(limit))
     ctx.success({
       msg: '查询文章成功！',
       data: result,
+      total: await (await Atricle.find()).length
     });
   }
 }
