@@ -18,7 +18,7 @@ const config = require('../configs'),
 router
     .post('/login', U.login)
     .get('/news',N.getAllNewsList)
-    .get('/atricle/insert',A.insertAtricle)                                     //用户登录
+    .post('/atricle/insert',A.insertAtricle)                                     //用户登录
     .get('/atricle/query',A.getAtricle)                                     //用户登录
 
 exports = module.exports = router;
