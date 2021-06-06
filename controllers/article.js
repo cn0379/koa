@@ -13,7 +13,6 @@ class AtricleController {
 
   static async getAtricle(ctx) {
     let result;
-    console.log();
     const { limit, page } = ctx.query
     result = await Atricle.find().limit(parseInt(limit))
     ctx.success({

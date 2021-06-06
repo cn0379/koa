@@ -8,4 +8,4 @@ const atricleSchema = new Schema({
     author: String,
 });
 
-exports = module.exports = mongoose.model('Atricles ', atricleSchema);
+exports = module.exports = mongoose.model('Atricles', atricleSchema);

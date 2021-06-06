@@ -1,0 +1,221 @@
+
+<template>
+  <div class="work_situation">
+    <div class="work_situation_main">
+      <div class="header_title">
+        <TopTitleAndDate title="业务完成情况" :searchObj="searchObj" @getStartTime="getStartTime" @getEndTime="getEndTime" />
+      </div>
+      <div id="work_situation_echarts"></div>
+    </div>
+  </div>
+</template>
+
+<script>
+import TopTitleAndDate from './moudle/selectdate'
+import { getBusSituation } from '@/api/townHome'
+import getTimeMixin from '@/mixins/getTimeMixin'
+
+export default {
+  name: 'WorkSituation',
+  components: {
+    TopTitleAndDate,
+  },
+  mixins: [getTimeMixin],
+  data() {
+    return {
+      searchObj: {
+        // 固定名称不要更改
+        endTime: '',
+        startTime: '',
+      },
+    }
+  },
+  created() {
+    // this.target = 6
+    this.getEndTimeStr()
+  },
+  mounted() {},
+  methods: {
+    getStartTime(e) {},
+    getEndTime(e) {},
+    async getBusSituation() {
+      let unfinishedCount = [],
+        finishedCount = []
+      const {
+        data: {
+          record: { xaxis, yaxis },
+        },
+      } = await getBusSituation(this.searchObj)
+      yaxis.forEach((ele) => {
+        unfinishedCount.push(ele.unfinishedCount)
+        finishedCount.push(ele.finishedCount)
+      })
+      this.init(xaxis, unfinishedCount, finishedCount)
+    },
+    /**
+     * @description: 图表初始化
+     */
+    init(xaxis, unfinishedCount, finishedCount) {
+      let echarts = this.$echarts.init(
+        document.getElementById('work_situation_echarts')
+      )
+      let options = {
+        tooltip: {
+          trigger: 'axis',
+          backgroundColor: '#fff',
+          textStyle: {
+            color: 'black', //设置文字颜色
+          },
+          axisPointer: {
+            type: 'shadow',
+            animation: true,
+            snap: true,
+            shadowStyle: {
+              color: 'rgba(148, 198, 74, 0.1)',
+            },
+          },
+        },
+        legend: {
+          data: ['已完成', '未完成'],
+          top: '16px',
+          left: '135px',
+          icon: 'circle',
+          itemWidth: 11,
+          itemHeight: 11,
+          itemGap: 15,
+          textStyle: {
+            color: '#667a91',
+            fontSize: 14,
+          },
+        },
+        grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '3%',
+          containLabel: true,
+        },
+        color: ['#4c83fa', '#94c64a'],
+        xAxis: {
+          type: 'value',
+          show: false,
+        },
+        yAxis: {
+          axisTick: {
+            show: false,
+          },
+          axisLine: {
+            show: false,
+          },
+          splitLine: {
+            show: false,
+          },
+          data: xaxis,
+          axisLabel: {
+            margin: 15,
+            fontSize: 14,
+            textStyle: {
+              fontSize: 14,
+              fontSize: 14,
+              color: '#666a80',
+            },
+          },
+        },
+
+        series: [
+          {
+            name: '已完成',
+            type: 'bar',
+            stack: 'total',
+            label: {
+              show: false,
+              position: 'insideLeft',
+              formatter: (params) => {
+                if (params.data == 0) {
+                  return ''
+                } else {
+                  return params.data
+                }
+              },
+              rich: {
+                fz: {},
+              },
+            },
+            emphasis: {
+              focus: 'series',
+            },
+            data: finishedCount,
+          },
+          {
+            name: '未完成',
+            type: 'bar',
+            stack: 'total',
+            label: {
+              show: false,
+              position: 'insideLeft',
+              formatter: (params) => {
+                if (params.data == 0) {
+                  return ''
+                } else {
+                  return params.data
+                }
+              },
+            },
+            emphasis: {
+              focus: 'series',
+            },
+            data: unfinishedCount,
+          },
+        ],
+      }
+      echarts.setOption(options, true)
+    },
+  },
+
+  watch: {
+    searchObj: {
+      handler(n) {
+        if (n) {
+          this.getBusSituation()
+        }
+      },
+      deep: true,
+    },
+  },
+}
+</script>
+
+<style  scoped>
+.work_situation {
+  width: 920px;
+  height: 320px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-right: 20px;
+  transition: 0.5s all ease;
+}
+
+.work_situation:hover {
+  transition: 0.5s all ease;
+  box-shadow: 0px 4px 12px 0px rgba(201, 212, 224, 0.5);
+}
+
+.work_situation_main {
+  padding: 8px 20px;
+}
+
+#work_situation_echarts {
+  width: 870px;
+  height: 335px;
+  top: -50px;
+  z-index: 0;
+}
+
+.header_title {
+  position: relative;
+}
+
+::v-deep .case_top_time {
+  /* position: relative; */
+  z-index: 5;
+}
+</style>

@@ -1,0 +1,78 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-10-11 01:04:14
+ * @LastEditTime: 2021-01-18 21:56:40
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \self_fraemc:\Users\dell\Desktop\demo-05.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    svg {
+      height: 50vw;
+    }
+
+    path {
+      fill: #d3d3d3;
+      transition: .6s fill;
+    }
+
+    #aa {
+      width: 600px;
+      height: 600px;
+      background-color: red;
+    }
+
+    path:hover {
+      fill: #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <div onclick="onButtonClick('guest',1)" id="aa"></div>
+
+</body>
+
+<script>
+  const actions = () => {
+    const functionA = () => {
+      console.log(66666);
+      /*do sth*/
+}
+    const functionB = () => {/*do sth*/ }
+    return new Map([
+      [{ identity: 'guest', status: 1 }, functionA],
+      [{ identity: 'guest', status: 2 }, functionA],
+      [{ identity: 'guest', status: 3 }, functionA],
+      [{ identity: 'guest', status: 4 }, functionA],
+      [{ identity: 'guest', status: 5 }, functionB],
+      //...
+    ])
+  }
+
+  function onButtonClick(identity, status) {
+    console.log(2222);
+    let action = [...actions()].filter(([key, value]) => (key.identity == identity && key.status == status))
+    console.log(action);
+    action.forEach(([key, value]) => value.call(this))
+  }
+
+ let fib = function fib(n) {
+    if (n < 2) {
+      return n
+    }
+    console.log(fib(n - 1) + fib(n - 2));
+    return fib(n - 1) + fib(n - 2)
+  }
+  console.log(fib(7));
+
+</script>
+
+</html>

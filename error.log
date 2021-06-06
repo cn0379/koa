@@ -299,3 +299,96 @@
 [31m[1m    at queryCallback (F:\koa\koa2\project\node_modules\mongodb-core\lib\cursor.js:212:36)[22m[39m
 [31m[1m    at F:\koa\koa2\project\node_modules\mongodb-core\lib\connection\pool.js:469:18[22m[39m
 [31m[1m    at processTicksAndRejections (internal/process/task_queues.js:79:11) (in errorHandle.js:25)[22m[39m
+[31m[1m19:45:18.37 <error> Error: ENOENT: no such file or directory, open 'F:\koa\koa2\project\public\uploads\1622893518343.jpg' (in errorHandle.js:25)[22m[39m
+[31m[1m19:46:09.96 <error> Error: ENOENT: no such file or directory, open 'F:\koa\koa2\project\public\uploads\1622893569947.jpg' (in errorHandle.js:25)[22m[39m
+[31m[1m19:46:46.62 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:42:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m19:47:59.44 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:42:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m19:48:23.57 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:42:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m19:49:34.29 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:42:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at runMicrotasks (<anonymous>)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m19:49:52.50 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:42:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at runMicrotasks (<anonymous>)[22m[39m
+[31m[1m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m19:50:53.72 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:42:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m19:57:12.75 <error> TypeError: upload.single(...).single is not a function[22m[39m
+[31m[1m    at upload (F:\koa\koa2\project\controllers\upload.js:19:27)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\lib\router.js:346:16[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:36:12[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\lib\router.js:351:31)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:15)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at module.exports (F:\koa\koa2\project\middlewares\response.js:6:9)[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-compose\index.js:42:32)[22m[39m
+[31m[1m    at bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:11)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m09:23:45.22 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:27:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m
+[31m[1m09:25:15.19 <error> TypeError: Cannot read property 'filename' of undefined[22m[39m
+[31m[1m    at F:\koa\koa2\project\routes\index.js:26:36[22m[39m
+[31m[1m    at dispatch (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)[22m[39m
+[31m[1m    at next (F:\koa\koa2\project\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)[22m[39m
+[31m[1m    at F:\koa\koa2\project\node_modules\@koa\multer\index.js:63:14[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\errorHandle.js:21:9)[22m[39m
+[31m[1m    at async module.exports (F:\koa\koa2\project\middlewares\response.js:6:3)[22m[39m
+[31m[1m    at async bodyParser (F:\koa\koa2\project\node_modules\koa-bodyparser\index.js:95:5)[22m[39m
+[31m[1m    at async F:\koa\koa2\project\app.js:43:5 (in errorHandle.js:25)[22m[39m

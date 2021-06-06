@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-04-18 00:31:39
- * @LastEditTime: 2021-04-20 22:25:35
+ * @LastEditTime: 2021-06-05 16:53:47
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \project\app.js
@@ -19,8 +19,9 @@ const response = require('./middlewares/response.js');
 //try/catch中间件
 const errorHandle = require('./middlewares/errorHandle.js');
 
-//引入路
+//引入路由
 const router = require('./routes');
+
 
 //mongoose
 const mongoose = require('mongoose');
